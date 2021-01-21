@@ -53,18 +53,28 @@ Scopri quali misure adottiamo per garantire protezione e sicurezza alle tue info
     <main>
 
       <div class="container70">
-      <?php
-      echo $faq[0]["Domanda"]. "<br>". $faq[0]["Risposta"];
-      ?>
-      <?php
-      echo $faq[1]["Domanda"]. "<br>". $faq[1]["Risposta"];
-      ?>
-      <?php
-      echo $faq[2]["Domanda"]. "<br>". $faq[2]["Risposta"];
-      ?>
-      <?php
-      echo $faq[3]["Domanda"]. "<br>". $faq[3]["Risposta"];
-      ?>
+
+          <?php
+          for ($i=0; $i < count($faq) ; $i++) {
+          ?>
+          
+            <h2>
+              <?php
+              echo $faq[$i]["Domanda"];
+              ?>
+            </h2>
+            <p>
+              <?php
+              echo $faq[$i]["Risposta"];
+              ?>
+            </p>
+
+          <?php
+          }
+          ?>
+
+
+
 
 
 
