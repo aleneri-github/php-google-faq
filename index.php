@@ -49,15 +49,14 @@ $navbar = ["Introduzione", "Norme sulla privacy", "Termini di servizio", "Tecnol
   </head>
   <body>
     <header>
-      <div class="header-top">
-        <img src="https://igizmo.it/wp-content/uploads/2020/01/google_logo-696x265.png" alt="">
-
+      <div class="header-top clearfix">
+        <img src="img/logo.jpg" alt="">
+        <img class="avatar" src="img/avatar.jpg" alt="">
       </div>
       <div class="header-bottom">
         <ul>
             <?php
             foreach ($navbar as $nav) {
-
             ?>
             <li>
              <a href="#">
