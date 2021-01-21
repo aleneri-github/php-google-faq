@@ -15,11 +15,11 @@ $faq = [
   [ "Domanda" => "Come fa Google a proteggere la mia privacy e a tenere le mie informazioni al sicuro?",
   "Risposta" => "Sappiamo che la sicurezza e la privacy sono importanti per te e lo sono anche per noi. Per noi è imperativo offrire un'elevata sicurezza e assicurarti che le tue informazioni sono al sicuro e accessibili quando ne hai bisogno.
 
-Siamo costantemente al lavoro per garantire un'elevata sicurezza, proteggere la tua privacy e rendere Google ancora più efficace ed efficiente per te. Spendiamo centinaia di milioni di dollari ogni anno per la sicurezza e ci avvaliamo di esperti di fama mondiale in materia di sicurezza dei dati per mantenere le tue informazioni al sicuro. Abbiamo inoltre sviluppato strumenti per la sicurezza e la privacy di facile utilizzo come Google Dashboard, la verifica in due passaggi e Impostazioni annunci. Così, per quanto riguarda le informazioni che condividi con Google, hai il massimo controllo.
+  Siamo costantemente al lavoro per garantire un'elevata sicurezza, proteggere la tua privacy e rendere Google ancora più efficace ed efficiente per te. Spendiamo centinaia di milioni di dollari ogni anno per la sicurezza e ci avvaliamo di esperti di fama mondiale in materia di sicurezza dei dati per mantenere le tue informazioni al sicuro. Abbiamo inoltre sviluppato strumenti per la sicurezza e la privacy di facile utilizzo come Google Dashboard, la verifica in due passaggi e Impostazioni annunci. Così, per quanto riguarda le informazioni che condividi con Google, hai il massimo controllo.
 
-Puoi leggere ulteriori informazioni sulla sicurezza online, incluso come proteggere te e la tua famiglia online, nel <a href='#'>Centro Google per la sicurezza online</a>. <br>
+  Puoi leggere ulteriori informazioni sulla sicurezza online, incluso come proteggere te e la tua famiglia online, nel <a href='#'>Centro Google per la sicurezza online</a>. <br>
 
-<a href='#'>Scopri</a> quali misure adottiamo per garantire protezione e sicurezza alle tue informazioni personali, lasciando a te il controllo."
+  <a href='#'>Scopri</a> quali misure adottiamo per garantire protezione e sicurezza alle tue informazioni personali, lasciando a te il controllo."
 
   ],
   [ "Domanda" => "Come faccio a rimuovere informazioni su di me dai risultati di ricerca di Google?",
@@ -32,11 +32,7 @@ Puoi leggere ulteriori informazioni sulla sicurezza online, incluso come protegg
 ];
 
 $navbar = ["Introduzione", "Norme sulla privacy", "Termini di servizio", "Tecnologie", "Domande frequenti" ];
-
  ?>
-
-
-
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
@@ -66,9 +62,7 @@ $navbar = ["Introduzione", "Norme sulla privacy", "Termini di servizio", "Tecnol
           <?php
           }
           ?>
-
         </ul>
-
       </div>
     </header>
 
@@ -92,5 +86,6 @@ $navbar = ["Introduzione", "Norme sulla privacy", "Termini di servizio", "Tecnol
           ?>
       </div>
     </main>
+
   </body>
 </html>
