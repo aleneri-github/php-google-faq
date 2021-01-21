@@ -42,6 +42,8 @@ Scopri quali misure adottiamo per garantire protezione e sicurezza alle tue info
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@500&family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <title>Google FAQ</title>
   </head>
@@ -57,7 +59,7 @@ Scopri quali misure adottiamo per garantire protezione e sicurezza alle tue info
           <?php
           for ($i=0; $i < count($faq) ; $i++) {
           ?>
-          
+
             <h2>
               <?php
               echo $faq[$i]["Domanda"];
@@ -72,12 +74,6 @@ Scopri quali misure adottiamo per garantire protezione e sicurezza alle tue info
           <?php
           }
           ?>
-
-
-
-
-
-
       </div>
     </main>
 
