@@ -49,17 +49,19 @@ Scopri quali misure adottiamo per garantire protezione e sicurezza alle tue info
   </head>
   <body>
     <header>
+      <div class="header-top">
 
+      </div>
+      <div class="header-bottom">
+
+      </div>
     </header>
 
     <main>
-
       <div class="container70">
-
           <?php
           for ($i=0; $i < count($faq) ; $i++) {
           ?>
-
             <h2>
               <?php
               echo $faq[$i]["Domanda"];
@@ -70,12 +72,10 @@ Scopri quali misure adottiamo per garantire protezione e sicurezza alle tue info
               echo $faq[$i]["Risposta"];
               ?>
             </p>
-
           <?php
           }
           ?>
       </div>
     </main>
-
   </body>
 </html>
