@@ -28,10 +28,10 @@ Scopri quali misure adottiamo per garantire protezione e sicurezza alle tue info
   ],
   [ "Domanda" => "Quando faccio clic sui risultati della Ricerca Google, le mie chiavi di ricerca vengono inviate ai siti web?",
   "Risposta" => "In alcuni casi sì. Quando fai clic su un risultato della Ricerca Google, il tuo browser web potrebbe reindirizzare alla pagina web di destinazione anche l'indirizzo Internet, o URL, della pagina dei risultati di ricerca sotto forma di URL referrer. Talvolta, l'URL della pagina dei risultati di ricerca potrebbe contenere la query di ricerca che hai inserito. Se utilizzi la ricerca SSL (la funzione di ricerca criptata di Google), nella maggior parte dei casi i termini di ricerca non vengono inviati come parte dell'URL negli URL referrer. Questo comportamento può fare eccezione, ad esempio se utilizzi alcuni browser meno diffusi. Ulteriori informazioni sulla ricerca SSL sono disponibili qui. Le query di ricerca o le informazioni contenute nell'URL referrer potrebbero essere disponibili mediante Google Analytics o un'API (Application Programming Interface). Inoltre, gli inserzionisti potrebbero ricevere informazioni relative all' esatte parole chiave che hanno determinato il clic su un annuncio."
-
   ],
-
 ];
+
+$navbar = ["Introduzione", "Norme sulla privacy", "Termini di servizio", "Tecnologie", "Domande frequenti" ];
 
  ?>
 
@@ -54,6 +54,16 @@ Scopri quali misure adottiamo per garantire protezione e sicurezza alle tue info
 
       </div>
       <div class="header-bottom">
+        <ul>
+          <li>
+            <?php
+            foreach ($navbar as $nav) {
+              echo $nav;
+            }
+
+            ?>
+          </li>
+        </ul>
 
       </div>
     </header>
@@ -61,7 +71,7 @@ Scopri quali misure adottiamo per garantire protezione e sicurezza alle tue info
     <main>
       <div class="container70">
           <?php
-          foreach ($faq as $value) {           
+          foreach ($faq as $value) {
           ?>
             <h2>
               <?php
