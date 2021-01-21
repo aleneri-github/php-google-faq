@@ -50,6 +50,7 @@ Scopri quali misure adottiamo per garantire protezione e sicurezza alle tue info
   <body>
     <header>
       <div class="header-top">
+        <img src="https://igizmo.it/wp-content/uploads/2020/01/google_logo-696x265.png" alt="">
 
       </div>
       <div class="header-bottom">
@@ -60,16 +61,16 @@ Scopri quali misure adottiamo per garantire protezione e sicurezza alle tue info
     <main>
       <div class="container70">
           <?php
-          for ($i=0; $i < count($faq) ; $i++) {
+          foreach ($faq as $value) {           
           ?>
             <h2>
               <?php
-              echo $faq[$i]["Domanda"];
+              echo $value["Domanda"];
               ?>
             </h2>
             <p>
               <?php
-              echo $faq[$i]["Risposta"];
+              echo $value["Risposta"];
               ?>
             </p>
           <?php
