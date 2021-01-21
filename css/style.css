@@ -28,7 +28,18 @@ header {
 .header-bottom {
   width: 100%;
   height: 25%;
-  background-color: red;
+}
+
+li {
+  margin: 0 20px;
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+  color: rgb(95, 99, 104);
 }
 
 main {

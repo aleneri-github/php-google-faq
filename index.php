@@ -55,14 +55,19 @@ $navbar = ["Introduzione", "Norme sulla privacy", "Termini di servizio", "Tecnol
       </div>
       <div class="header-bottom">
         <ul>
-          <li>
             <?php
             foreach ($navbar as $nav) {
-              echo $nav;
-            }
 
             ?>
-          </li>
+            <li>
+             <a href="#">
+               <strong><?php echo $nav; ?></strong>
+              </a>
+            </li>
+          <?php
+          }
+          ?>
+
         </ul>
 
       </div>
